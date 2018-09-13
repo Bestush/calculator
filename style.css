@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 15px;
+}
+
+#calculatorFrame {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(240, 238, 238);
+}
+
+#display {
+    display: flex;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: 65px;
+    justify-content: flex-end;
+    align-content: center;
+    font-size: 30px;
+}
+
+
+
+#keyRow1,
+#keyRow2,
+#keyRow3,
+#keyRow4,
+#keyRow5 {
+    display: flex;
+    width: 100%;
+    height: 20%;
+
+}
+
+.keys {
+    width: 100%;
+    height: 100%;
+}
+
+.keys button {
+
+    border: 0.03px solid rgb(240, 238, 238)lack;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+
+#keyRow5 {
+    justify-content: space-evenly;
+}
+
+#key0 {
+    display: flex;
+    flex-basis: 200%;
+
+}
+
+#key0 button {
+    text-align: left;
+    padding-left: 9%;
+}
+
+.operators {
+    background-color: #ff7300;
+}
+
+#displayContent {
+    margin-right: 5%;
+}
